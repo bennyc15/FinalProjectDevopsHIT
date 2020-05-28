@@ -24,7 +24,7 @@
                     <td><%=request.getParameter("course")%></td>
                 </tr>
 				<tr><td></td><td align="right">
-			  <A HREF="first_page.jsp">
+			  <A HREF="index.jsp">
 					<font size="4" color="blue">edit</font></A>
 			</td>
 	    </tr>
