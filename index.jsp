@@ -4,7 +4,7 @@
 <%@ page import="java.io.*" %> 
 <html> 
     <head> 
-        <title>Create table in mysql database using jsp</title>
+        <title>Get Degree</title>
     </head> 
     <body bgcolor="#ffffcc">
         <form action="show_data.jsp" method="get">
