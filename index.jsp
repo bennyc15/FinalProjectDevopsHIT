@@ -1,15 +1,11 @@
 <html>
-<head><title>First Hamuzim</title></head>
+<head><title>First JSP</title></head>
 <body>
   <%
-    double num1 = Math.nextInt(36);
-    double num2 = Math.nextInt(36);
-    double num3 = Math.nextInt(36);
-    double num4 = Math.nextInt(36);
-    double num5 = Math.nextInt(36);
-    double num6 = Math.nextInt(36);
+	Random rand = new Random();
+    double num = rand.nextInt(37);
   %>
-      <h2>Next lottery numbers: </h2><p><%= num1 %>,<%= num2 %>,<%= num3 %>,<%= num4 %>,<%= num5 %>,<%= num6 %></p>
+      <h2>the next lottory numbers: </h2><p>(<%= num %>)</p>
   <%
   <a href="<%= request.getRequestURI() %>"><h3>Try Again</h3></a>
 </body>
