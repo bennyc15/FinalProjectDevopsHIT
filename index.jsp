@@ -35,7 +35,7 @@
 					    Regular</td>
                     <td><input type="radio" name="course" value="Correspondance">
 					    Correspondance</td>
-                    <td><input type="radio" name="course" value="Online Devops"> Online Devops</td>
+                    <td><input type="radio" name="course" value="Online"> Online</td>
                 </tr>
 				<tr><td></td><td></td>
 				<td><input type="submit" name="submit" value="submit"></td></tr>
