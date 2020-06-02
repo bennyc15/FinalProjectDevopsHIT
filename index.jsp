@@ -4,7 +4,7 @@
 <%@ page import="java.io.*" %> 
 <html> 
     <head> 
-        <title>Get 100 in Devops</title>
+        <title>Get Degree</title>
     </head> 
     <body bgcolor="#ffffcc">
         <form action="show_data.jsp" method="get">
